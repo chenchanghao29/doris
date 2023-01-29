@@ -32,8 +32,6 @@ It's design, implementation can be referred to [ISSUE 4394](https://github.com/a
 
 ## Noun Interpretation
 
-* FE: Frontend, the front-end node of Doris. Responsible for metadata management and request access.
-* BE: Backend, Doris's back-end node. Responsible for query execution and data storage.
 * Left table: the left table in join query. Perform probe expr. The order can be adjusted by join reorder.
 * Right table: the right table in join query. Perform build expr The order can be adjusted by join reorder.
 
