@@ -52,7 +52,7 @@ As a distributed MPP database, data shuffle needs to be performed during the Joi
 
     ![image-20220523151902368](/images/join/image-20220523151902368.png)
 
-    The left and right table data are sent to different partition nodes according to the partition, and the calculated demerits are sent.
+    The left and right table data are sent to different partition nodes according the partition calculation result.
 
 3. Bucket Shuffle Join
 
