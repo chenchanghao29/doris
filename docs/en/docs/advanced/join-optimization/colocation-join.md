@@ -34,8 +34,6 @@ The Colocation Join function has undergone a revision, and its design and use ar
 
 ## Noun Interpretation
 
-* FE: Frontend, the front-end node of Doris. Responsible for metadata management and request access.
-* BE: Backend, Doris's back-end node. Responsible for query execution and data storage.
 * Colocation Group (CG): A CG contains one or more tables. Tables within the same group have the same Colocation Group Schema and the same data fragmentation distribution.
 * Colocation Group Schema (CGS): Used to describe table in a CG and general Schema information related to Colocation. Including bucket column type, bucket number and copy number.
 
